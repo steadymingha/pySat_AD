@@ -46,7 +46,7 @@ class KalmanFilter:
 
 
 if __name__ == '__main__':
-    kf = KalmanFilter()r
+    kf = KalmanFilter()
 
     # Simulate a measurement and predict-update cycle
     omega = np.array([0.01, 0.02, 0.03])  # Gyro measurements
